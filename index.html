@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - AI & DS Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Portfolio</div>
+            <div class="nav-right">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="theme-toggle" onclick="toggleTheme()">
+                    <div class="theme-toggle-slider">
+                        <span id="theme-icon">☀️</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Prajwal Yadav</h1>
+        <p class="subtitle">AI & Data Science Student</p>
+        <p class="description">Second-year student passionate about machine learning, data analysis, and building intelligent systems.</p>
+        <div class="social-links">
+            <a href="https://github.com/PrajwalYadav07" class="social-btn">
+                <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/mr-prajwal-yadav/" class="social-btn">
+                <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+            <a href="https://mr.prajwalyadav@gmail.com" class="social-btn">
+                <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="card-grid">
+            <div class="card">
+                <h3>🧠 AI Enthusiast</h3>
+                <p>Exploring neural networks, deep learning, and natural language processing.</p>
+            </div>
+            <div class="card">
+                <h3>📊 Data Science</h3>
+                <p>Analyzing data to extract insights and build predictive models.</p>
+            </div>
+            <div class="card">
+                <h3>💻 Problem Solver</h3>
+                <p>Building solutions through clean code and algorithmic thinking.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-alt" style="background: #f9fafb;">
+        <h2>Projects</h2>
+        <div class="card-grid">
+            <div class="card">
+                <h3>Sentiment Analysis Model</h3>
+                <p>Built an NLP model to analyze customer reviews with 92% accuracy using LSTM networks.</p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">TensorFlow</span>
+                    <span class="tech-tag">NLTK</span>
+                </div>
+                <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+            <div class="card">
+                <h3>Sales Prediction Dashboard</h3>
+                <p>Created an interactive dashboard for sales forecasting using time series analysis.</p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Pandas</span>
+                    <span class="tech-tag">Plotly</span>
+                </div>
+                <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+            <div class="card">
+                <h3>Image Classification System</h3>
+                <p>Developed a CNN-based system to classify images across 10 categories with 88% accuracy.</p>
+                <div class="tech-tags">
+                    <span class="tech-tag">PyTorch</span>
+                    <span class="tech-tag">OpenCV</span>
+                    <span class="tech-tag">Flask</span>
+                </div>
+                <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div style="max-width: 800px; margin: 0 auto;">
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span>Python</span>
+                    <span>90%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 90%"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span>Machine Learning</span>
+                    <span>85%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 85%"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span>Data Analysis</span>
+                    <span>80%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 80%"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span>TensorFlow/PyTorch</span>
+                    <span>75%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 75%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section-alt" style="background: #f9fafb;">
+        <h2>🎓 Education</h2>
+        <div style="max-width: 900px; margin: 0 auto;">
+            <div class="education-card">
+                <div class="education-header">
+                    <div class="education-title">
+                        <h3>B.E. in AI & Data Science</h3>
+                        <p>Government Engineering College, Rajkot - GTU</p>
+                    </div>
+                    <div class="education-meta">
+                        <div class="education-period">
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zM9 14H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2zm-8 4H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2z"/>
+                            </svg>
+                            2025 - 2028
+                        </div>
+                        <span class="education-status">Second Year</span>
+                    </div>
+                </div>
+                <ul class="education-highlights">
+                    <li>CGPA: 8.5/10</li>
+                    <!-- <li>Member of AI Club</li>
+                    <li>Participated in Multiple Hackathons</li>
+                    <li>Core Member of Technical Society</li> -->
+                </ul>
+            </div>
+
+            <div class="education-card">
+                <div class="education-header">
+                    <div class="education-title">
+                        <h3>Diploma in Computer Engineering</h3>
+                        <p>Government Polytechnic Ahmedabad - GTU</p>
+                    </div>
+                    <div class="education-meta">
+                        <div class="education-period">
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zM9 14H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2zm-8 4H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2z"/>
+                            </svg>
+                            2022 - 2025
+                        </div>
+                        <span class="education-status">Completed</span>
+                    </div>
+                </div>
+                <ul class="education-highlights">
+                    <li>CGPA: 8.80</li>
+                    <!-- <li>Focus: Science & Mathematics</li>
+                    <li>School Topper in Computer Science</li> -->
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <h2>🏆 Certifications</h2>
+        <div class="cert-grid">
+            <div class="cert-card">
+                <div class="cert-icon">🎓</div>
+                <div class="cert-title">Machine Learning Specialization</div>
+                <div class="cert-issuer">Coursera (Stanford)</div>
+                <div class="cert-date">Oct 2024</div>
+            </div>
+            <div class="cert-card">
+                <div class="cert-icon">🧠</div>
+                <div class="cert-title">Deep Learning Specialization</div>
+                <div class="cert-issuer">DeepLearning.AI</div>
+                <div class="cert-date">Aug 2024</div>
+            </div>
+            <div class="cert-card">
+                <div class="cert-icon">📊</div>
+                <div class="cert-title">Data Science Professional Certificate</div>
+                <div class="cert-issuer">IBM</div>
+                <div class="cert-date">Jun 2024</div>
+            </div>
+            <div class="cert-card">
+                <div class="cert-icon">🐍</div>
+                <div class="cert-title">Python for Data Science</div>
+                <div class="cert-issuer">DataCamp</div>
+                <div class="cert-date">Mar 2024</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" style="background: #f9fafb; text-align: center;">
+        <h2>Get In Touch</h2>
+        <p style="font-size: 1.2rem; color: #666; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+            I'm always open to discussing new projects, opportunities, or collaborations.
+        </p>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+            <a href="mailto:your.email@example.com" class="btn btn-primary">Email Me</a>
+            <a href="#" class="btn btn-secondary">Download Resume</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Your Name. Built with HTML, CSS & JavaScript.</p>
+    </footer>
+
+    <script>
+        // Dark Mode Toggle
+        function toggleTheme() {
+            const body = document.body;
+            const themeIcon = document.getElementById('theme-icon');
+            
+            body.classList.toggle('dark-mode');
+            
+            if (body.classList.contains('dark-mode')) {
+                themeIcon.textContent = '🌙';
+                localStorage.setItem('theme', 'dark');
+            } else {
+                themeIcon.textContent = '☀️';
+                localStorage.setItem('theme', 'light');
+            }
+        }
+
+        // Load saved theme
+        window.addEventListener('DOMContentLoaded', () => {
+            const savedTheme = localStorage.getItem('theme');
+            const themeIcon = document.getElementById('theme-icon');
+            
+            if (savedTheme === 'dark') {
+                document.body.classList.add('dark-mode');
+                themeIcon.textContent = '🌙';
+            }
+        });
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Animate skill bars on scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.width = entry.target.getAttribute('data-width') || entry.target.style.width;
+                }
+            });
+        });
+
+        document.querySelectorAll('.skill-progress').forEach(bar => {
+            bar.setAttribute('data-width', bar.style.width);
+            bar.style.width = '0';
+            observer.observe(bar);
+        });
+    </script>
+</body>
+</html>
