@@ -75,7 +75,7 @@
         body.dark-mode .education-card:hover,
         body.dark-mode .cert-card:hover {
             border-color: #64748b;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
         }
 
         body.dark-mode .tech-tag,
@@ -137,7 +137,7 @@
             backdrop-filter: blur(10px);
             border-bottom: 1px solid #e5e5e5;
             z-index: 1000;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
         }
 
         .nav-container {
@@ -310,7 +310,7 @@
 
         .card:hover {
             border-color: black;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         }
 
         .card h3 {
@@ -423,7 +423,7 @@
 
         .education-card:hover {
             border-color: black;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         }
 
         .education-header {
@@ -508,7 +508,7 @@
 
         .cert-card:hover {
             border-color: black;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
             transform: scale(1.05);
         }
 
